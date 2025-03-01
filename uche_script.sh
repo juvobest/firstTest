@@ -24,4 +24,12 @@ ls -l original_files
 echo "Contents of 'backup_files':"
 ls -l backup_files
 
+echo "Creating directory 'my info_file'..."
+mkdir -p my_info
+
+echo "my name is Uchenna John Onunkwo, also know as JUVO. I am into tech and i intend to get the best of
+      it and earn from tech" > about_me.txt
+      
+
+
 echo "Script completed successfully!"
